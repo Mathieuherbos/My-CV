@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 
 .top
@@ -30,4 +30,19 @@ img
     float: left;
     width: 165px;
     height: 200px;
+}
+
+.top h1
+{
+    text-align: center;
+}
+
+
+/* Arrangement .left */
+/* Arrangement .right */
+/* Arrangement ensemble */
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
 }
