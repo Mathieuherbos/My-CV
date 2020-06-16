@@ -1,0 +1,33 @@
+/* Grid pour les diff sections */
+
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-gap: 10px;
+}
+
+.top
+{
+    grid-area: 1 / 1 / 1 / 5;
+}
+
+.left
+{
+    grid-area: 2 / 1 / 5 / 1;
+}
+
+.right
+{
+    grid-area: 2 / 2 / 5 / 4;
+}
+
+/* Arrangement .top */
+
+img
+{
+    float: left;
+    width: 165px;
+    height: 200px;
+}
