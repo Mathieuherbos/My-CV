@@ -30,6 +30,7 @@ img
     float: left;
     width: 165px;
     height: 200px;
+    border-radius: 300px;
 }
 
 .top h1
