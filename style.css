@@ -49,7 +49,21 @@ img
 }
 
 /* Arrangement .left */
+
+.left
+{
+    background-color: lightskyblue;
+}
+
+
+
 /* Arrangement .right */
+
+.right
+{
+    background-color: lightgray;
+}
+
 /* Arrangement ensemble */
 
 *
