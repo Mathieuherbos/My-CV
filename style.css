@@ -31,13 +31,22 @@ img
     width: 165px;
     height: 200px;
     border-radius: 300px;
+    margin-top: 8px;
+    margin-left: 20px;
 }
 
 .top h1
 {
     text-align: center;
+    margin-top: 85px;
+    margin-right: 150px;
+    font-size: 75px;
 }
 
+.top
+{
+    background-color: lightslategray;
+}
 
 /* Arrangement .left */
 /* Arrangement .right */
