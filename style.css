@@ -5,22 +5,22 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-gap: 20px;
+    grid-gap: 1px;
 }
 
 .top
 {
-    grid-area: 1 / 1 / 1 / 5;
+    grid-area: 1 / 1 / 1 / 6;
 }
 
 .left
 {
-    grid-area: 2 / 1 / 5 / 1;
+    grid-area: 2 / 1 / 6 / 1;
 }
 
 .right
 {
-    grid-area: 2 / 2 / 5 / 4;
+    grid-area: 2 / 2 / 6 / 6;
 }
 
 /* Arrangement .top */
@@ -53,6 +53,7 @@ img
 .left
 {
     background-color: lightskyblue;
+    padding: 20px;
 }
 
 
@@ -62,6 +63,12 @@ img
 .right
 {
     background-color: lightgray;
+    padding: 20px;
+}
+
+.txtright
+{
+    margin-right: 250px;
 }
 
 /* Arrangement ensemble */
